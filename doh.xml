@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerName</key>
+                    <string>sg.llli.live</string>
+                    <key>ServerURL</key>
+                    <string>https://sg.llli.live:444/dns-query/iphone12</string>
+                </dict>
+                <key>Name</key>
+                <string>sg.llli.live DoH</string>
+                <key>PayloadDescription</key>
+                <string>Configures device to use AdGuard Home</string>
+                <key>PayloadDisplayName</key>
+                <string>sg.llli.live DoH</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.3af830cc-0425-4181-9e15-99b22a62d714</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>2883e358-e2fd-46d0-a1aa-c1a2fc63a7e4</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds AdGuard Home to Big Sur and iOS 14 or newer systems</string>
+        <key>PayloadDisplayName</key>
+        <string>sg.llli.live DoH</string>
+        <key>PayloadIdentifier</key>
+        <string>38c8e101-9ca9-4b50-8ad0-2966559d801f</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false />
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>081d3705-61d0-4a73-bcfb-d17702d176d3</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>
